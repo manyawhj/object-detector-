@@ -1,0 +1,42 @@
+.heading
+{
+font-size: 23px;
+width: 100%;
+margin: 0px;
+}
+
+#status
+{
+font-size: 18px;
+}
+
+#number
+{
+font-size: 18px;
+}
+
+body
+{
+background-position: center;
+background-size: cover;
+}
+
+#names{
+    margin-top: 500px;
+    font-size: 18px;
+}
+
+.allbtns{
+    background-color: white;
+    color: rgb(180, 53, 180);
+    font-family: 'Sansita Swashed', cursive;
+    width: 200px;
+    animation: Ani 4s infinite;
+}
+
+
+@keyframes Ani{
+    from{border-color: lavenderblush; border-width: 8px; border-style:ridge; border-radius: 0px;}
+    to{border-color: black; border-width: 4px; border-style: solid; border-radius: 30px;}
+    
+}
